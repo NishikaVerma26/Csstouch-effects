@@ -1,0 +1,62 @@
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+  }
+  body {
+    font-size: 18px;
+    font-family: "Yellowtail", sans-serif;
+    background-color: #010a01;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png")
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 5.2rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+    
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  }
+}
